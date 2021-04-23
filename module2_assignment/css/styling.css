@@ -8,12 +8,14 @@ h1.heading{
 }
 .row{
 	width: 100% ;	
+	margin-left:  auto;
 }
 
 @media (min-width: 992px){
 	.col-lg-4{
-		width: 33.33% ;
+		width: 31% ;
 		float:left;	
+		margin:0% 1.15% 0% 1.15%;
 		box-sizing: border-box;
 	}
 }
@@ -21,19 +23,24 @@ h1.heading{
 @media (min-width: 768px) and (max-width: 991px){
 	.col-md-6{
 		float:left;
-		width: 50%;
+		width: 48%;
 		box-sizing: border-box;
+		margin: 0% 1% 2% 1%;
 	}	
 	#third{
-		width:100%;
+		width:98%;
+		
 	}
 }
 
 @media (max-width: 767px){
 	.col-sm-12{
 		float:left;
-		width: 100%;
+		width: 98%;
 		box-sizing: border-box;
+		margin-bottom: 2%;
+		margin-left:auto;
+
 	}
 }
 
