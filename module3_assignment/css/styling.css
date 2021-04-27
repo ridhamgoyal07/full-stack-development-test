@@ -1,0 +1,15 @@
+
+.container .mainContent >div >h2{
+	font-size: 2em;
+	margin:5%;
+}
+
+
+.container .mainContent div:nth-child(odd){
+	background-color: lightgrey;
+}
+.container .mainContent div:nth-child(even){
+	background-color: black;
+	color:white;
+}
+
